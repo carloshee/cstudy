@@ -1,0 +1,4 @@
+﻿  exam9.cpp
+c:\users\kict-14\desktop\cstudy\day4\exam9\exam9.cpp(11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double'입니다.
+  exam9.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day4\Debug\exam9.exe
+  exam9.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day4\Debug\exam9.pdb (Partial PDB)
