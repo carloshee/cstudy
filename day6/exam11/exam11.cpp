@@ -4,6 +4,13 @@
 #include "stdafx.h"
 #include "exam11.h"
 
+#include <Windows.h>
+#include <ObjIdl.h>
+#include <gdiplus.h>
+using namespace Gdiplus;
+#pragma comment(lib,"Gdiplus.lib")
+
+
 #define MAX_LOADSTRING 100
 
 // 전역 변수:
