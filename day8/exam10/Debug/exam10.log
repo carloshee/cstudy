@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  exam10.cpp
+c:\users\kict-14\desktop\cstudy\day8\exam10\exam10.cpp(17): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+c:\users\kict-14\desktop\cstudy\day8\exam10\exam10.cpp(17): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+  exam10.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day8\Debug\exam10.exe
+  exam10.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day8\Debug\exam10.pdb (Partial PDB)
