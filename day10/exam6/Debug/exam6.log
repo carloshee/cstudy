@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  exam6.cpp
+c:\users\kict-14\desktop\cstudy\day10\exam6\exam6.cpp(10): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(93): note: 'strcat' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\day10\exam6\exam6.cpp(12): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(93): note: 'strcat' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\day10\exam6\exam6.cpp(17): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(104): note: 'wcscat' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\day10\exam6\exam6.cpp(18): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(104): note: 'wcscat' 선언을 참조하십시오.
+  exam6.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day10\Debug\exam6.exe
+  exam6.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day10\Debug\exam6.pdb (Partial PDB)
