@@ -1,0 +1,6 @@
+﻿  exam8_exit_room.cpp
+c:\users\kict-14\desktop\cstudy\engine\mywin32_engine.h(8): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(261): note: 'wcstok' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\engine\mywin32_engine.h(11): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(261): note: 'wcstok' 선언을 참조하십시오.
+LINK : fatal error LNK1209: 'C:\Users\KICT-14\Desktop\cstudy\exdoor\Debug\exam8_exit_room.pdb' 프로그램 데이터베이스가 이전 링크와 다릅니다. 다시 링크하거나 다시 빌드하십시오.
