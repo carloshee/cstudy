@@ -1,0 +1,17 @@
+﻿  gdiplus_helper.cpp
+  exam1.cpp
+  코드를 생성하고 있습니다...
+c:\users\kict-14\desktop\cstudy\day13\exam1\gdiplus_helper.cpp(44): warning C4700: 초기화되지 않은 'pen' 지역 변수를 사용했습니다.
+c:\users\kict-14\desktop\cstudy\day13\exam1\gdiplus_helper.cpp(44): warning C4700: 초기화되지 않은 'graphBackBuffer' 지역 변수를 사용했습니다.
+c:\users\kict-14\desktop\cstudy\day13\exam1\gdiplus_helper.cpp(31): warning C4700: 초기화되지 않은 'pen' 지역 변수를 사용했습니다.
+c:\users\kict-14\desktop\cstudy\day13\exam1\gdiplus_helper.cpp(31): warning C4700: 초기화되지 않은 'graphBackBuffer' 지역 변수를 사용했습니다.
+c:\users\kict-14\desktop\cstudy\day13\exam1\gdiplus_helper.cpp(63): warning C4700: 초기화되지 않은 'graphBackBuffer' 지역 변수를 사용했습니다.
+c:\users\kict-14\desktop\cstudy\day13\exam1\gdiplus_helper.cpp(64): warning C4700: 초기화되지 않은 'brush' 지역 변수를 사용했습니다.
+c:\users\kict-14\desktop\cstudy\day13\exam1\gdiplus_helper.cpp(68): warning C4700: 초기화되지 않은 'pen' 지역 변수를 사용했습니다.
+c:\users\kict-14\desktop\cstudy\day13\exam1\gdiplus_helper.cpp(70): warning C4700: 초기화되지 않은 'pen2' 지역 변수를 사용했습니다.
+gdiplus_helper.obj : error LNK2005: "void __cdecl GDIPLUS_Loop(struct tagMSG &)" (?GDIPLUS_Loop@@YAXAAUtagMSG@@@Z)이(가) exam1.obj에 이미 정의되어 있습니다.
+gdiplus_helper.obj : error LNK2005: "void __cdecl StartGDILoop(void)" (?StartGDILoop@@YAXXZ)이(가) exam1.obj에 이미 정의되어 있습니다.
+gdiplus_helper.obj : error LNK2005: "void __cdecl StopGDILoop(void)" (?StopGDILoop@@YAXXZ)이(가) exam1.obj에 이미 정의되어 있습니다.
+gdiplus_helper.obj : error LNK2005: "unsigned long g_dwGdiLoopFsm" (?g_dwGdiLoopFsm@@3KA)이(가) exam1.obj에 이미 정의되어 있습니다.
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: _WinMain@16 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\KICT-14\Desktop\cstudy\day13\Debug\exam1.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

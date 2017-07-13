@@ -1,0 +1,11 @@
+﻿  exam9_memo.cpp
+c:\users\kict-14\desktop\cstudy\engine\mywin32_engine.h(8): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(261): note: 'wcstok' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\engine\mywin32_engine.h(11): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(261): note: 'wcstok' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\day14\exam9_memo\exam9_memo.cpp(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(127): note: 'wcscpy' 선언을 참조하십시오.
+exam9_memo.obj : error LNK2019: "void __cdecl win32_Printf(struct HWND__ *,wchar_t *,...)" (?win32_Printf@@YAXPAUHWND__@@PA_WZZ) 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+exam9_memo.obj : error LNK2019: "void __cdecl DisplayLog(struct HDC__ *)" (?DisplayLog@@YAXPAUHDC__@@@Z) 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+exam9_memo.obj : error LNK2019: "void __cdecl ClearLog(struct HWND__ *)" (?ClearLog@@YAXPAUHWND__@@@Z) 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+C:\Users\KICT-14\Desktop\cstudy\day14\Debug\exam9_memo.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.

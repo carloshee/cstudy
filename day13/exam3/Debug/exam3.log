@@ -1,0 +1,4 @@
+﻿  exam3.cpp
+c:\users\kict-14\desktop\cstudy\day13\exam3\exam3.cpp(14): warning C4101: 'pDouble' :참조되지 않은 지역 변수입니다.
+  exam3.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day13\Debug\exam3.exe
+  exam3.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day13\Debug\exam3.pdb (Partial PDB)
