@@ -1,0 +1,10 @@
+﻿  exam4.cpp
+c:\users\kict-14\desktop\cstudy\day17\exam4\exam4.cpp(45): error C2039: 'GDIPLUS_Loop': 'plusEngine'의 멤버가 아닙니다.
+  c:\users\kict-14\desktop\cstudy\engine\plusengine.h(8): note: 'plusEngine' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\day17\exam4\exam4.cpp(45): error C3861: 'GDIPLUS_Loop': 식별자를 찾을 수 없습니다.
+c:\users\kict-14\desktop\cstudy\day17\exam4\exam4.cpp(173): error C2039: 'fpOnLoop': 'plusEngine'의 멤버가 아닙니다.
+  c:\users\kict-14\desktop\cstudy\engine\plusengine.h(8): note: 'plusEngine' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\day17\exam4\exam4.cpp(173): error C2065: 'fpOnLoop': 선언되지 않은 식별자입니다.
+c:\users\kict-14\desktop\cstudy\day17\exam4\exam4.cpp(174): error C2039: 'fpOnRender': 'plusEngine'의 멤버가 아닙니다.
+  c:\users\kict-14\desktop\cstudy\engine\plusengine.h(8): note: 'plusEngine' 선언을 참조하십시오.
+c:\users\kict-14\desktop\cstudy\day17\exam4\exam4.cpp(174): error C2065: 'fpOnRender': 선언되지 않은 식별자입니다.

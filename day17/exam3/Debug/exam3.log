@@ -1,0 +1,7 @@
+﻿  exam3.cpp
+c:\users\kict-14\desktop\cstudy\day17\exam3\exam3.cpp(135): warning C4244: '인수': 'irr::f64'에서 'Gdiplus::REAL'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kict-14\desktop\cstudy\day17\exam3\exam3.cpp(147): warning C4244: '인수': 'irr::f32'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kict-14\desktop\cstudy\day17\exam3\exam3.cpp(236): warning C4244: '인수': 'irr::f64'에서 'Gdiplus::REAL'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kict-14\desktop\cstudy\day17\exam3\exam3.cpp(251): warning C4244: '인수': 'irr::f64'에서 'Gdiplus::REAL'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  exam3.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day17\Debug\exam3.exe
+  exam3.vcxproj -> C:\Users\KICT-14\Desktop\cstudy\day17\Debug\exam3.pdb (Partial PDB)
