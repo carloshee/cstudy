@@ -23,5 +23,7 @@
 #include "../../engine/plusEngine.h"
 #include "Objectplayer.h"
 #include "ObjectBullet.h"
+#include "PlayerBullet.h"
+#include "Enemy.h"
 #include "ObjectEffectBulletDie.h"
 #include "game.h"

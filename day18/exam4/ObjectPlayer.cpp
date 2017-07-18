@@ -3,17 +3,21 @@
 void S_ObjectPlayer_OnApply(S_ObjectPlayer *pThis, double fDelta)
 {
 	if (g_KeyStatus[VK_LEFT]) {
-		pThis->m_vPosition += fDelta * 10 * irr::core::vector2df(-1, 0);
+		if(pThis->m_vPosition.X > -300)
+			pThis->m_vPosition += fDelta * 50 * irr::core::vector2df(-1, 0);
 	}
 	if (g_KeyStatus[VK_RIGHT]) {
-		pThis->m_vPosition += fDelta * 10 * irr::core::vector2df(1, 0);
+		if (pThis->m_vPosition.X < 300)
+			pThis->m_vPosition += fDelta * 50 * irr::core::vector2df(1, 0);
 	}
 
 	if (g_KeyStatus[VK_UP]) {
-		pThis->m_vPosition += fDelta * 10 * irr::core::vector2df(0, -1);
+		if (pThis->m_vPosition.Y > -220)
+			pThis->m_vPosition += fDelta * 50 * irr::core::vector2df(0, -1);
 	}
 	if (g_KeyStatus[VK_DOWN]) {
-		pThis->m_vPosition += fDelta * 10 * irr::core::vector2df(0, 1);
+		if (pThis->m_vPosition.Y < 220)
+			pThis->m_vPosition += fDelta * 50 * irr::core::vector2df(0, 1);
 	}
 }
 

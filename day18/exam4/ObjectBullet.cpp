@@ -34,11 +34,11 @@ void ObjectBullet_OnApply(S_ObjectBullet *pThis, double fDelta)
 }
 void ObjectBullet_OnRender(S_ObjectBullet *pThis, Graphics *pGrp)
 {
-	Pen pen(Color(0, 0, 0));
+	Pen pen(Color(240, 0, 0));
 	pGrp->DrawEllipse(&pen,
-		(int)(pThis->m_vPosition.X - pThis->m_fSize / 2.0),
+		(int)(pThis->m_vPosition.X - pThis->m_fSize / 1.0),
 		(int)(pThis->m_vPosition.Y - pThis->m_fSize / 2.0),
-		pThis->m_fSize, pThis->m_fSize
+		pThis->m_fSize - 10, pThis->m_fSize
 	);
 
 }

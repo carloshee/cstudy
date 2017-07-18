@@ -3,8 +3,6 @@
 struct S_ObjectPlayer {
 	irr::core::vector2df m_vPosition;
 	Image *m_pImg;
-
-
 };
 
 extern void S_ObjectPlayer_OnApply(S_ObjectPlayer *pThis, double fDelta);

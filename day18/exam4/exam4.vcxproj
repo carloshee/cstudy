@@ -139,22 +139,26 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\engine\plusEngine.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="exam4.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="ObjectBullet.h" />
     <ClInclude Include="ObjectEffectBulletDie.h" />
     <ClInclude Include="ObjectPlayer.h" />
+    <ClInclude Include="PlayerBullet.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\engine\plusEngine.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="exam4.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="ObjectBullet.cpp" />
     <ClCompile Include="ObjectEffectBulletDie.cpp" />
     <ClCompile Include="ObjectPlayer.cpp" />
+    <ClCompile Include="PlayerBullet.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
