@@ -150,7 +150,9 @@ void OnLoop(double fDelta)
 	}
 	if (g_fAcctick2 > 0.3) {
 		g_fAcctick2 = 0.0;
-		AddPlayerBullet();
+		if (g_KeyStatus['B']) {
+			AddPlayerBullet();
+		}
 	}
 	//플레이어 처리
 	S_ObjectPlayer_OnApply(&g_objPlayer, fDelta);
