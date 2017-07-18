@@ -16,22 +16,29 @@ namespace mywin32_engine {
 
 			return nCount;
 		}
+		void OutputDebugformat(TCHAR *fmt, ...) {
+			TCHAR szBuf[256];
+			va_list ap;
+			va_start(ap, fmt);
+			vswprintf_s(szBuf, 256, fmt, ap);
+			OutputDebugString(szBuf);
+			va_end(ap);
+		}
 	}
-	HWND makeTextBox(HWND hWnd, int nPosX, int nPosY, int nWidth, int nHeight, int nHandle) 
+	HWND makeTextBox(HWND hWnd, int nPosX, int nPosY, int nWidth, int nHeight, int nHandle)
 	{
-		return CreateWindow(L"static", L"", WS_CHILD | WS_VISIBLE | WS_BORDER, 
+
+		return CreateWindow(L"static", L"", WS_CHILD | WS_VISIBLE | WS_BORDER,
 			nPosX, nPosY, nWidth, nHeight,
 			hWnd,
-			(HMENU)5001, hInst, NULL);
+			(HMENU)nHandle, hInst, NULL);
 	}
-
 	HWND makeMiniEditBox(HWND hWnd, int nPosX, int nPosY, int nHandle)
 	{
 		return CreateWindow(L"edit", NULL,
-			WS_CHILD | WS_BORDER | WS_VISIBLE | ES_AUTOHSCROLL, 
+			WS_CHILD | WS_BORDER | WS_VISIBLE | ES_AUTOHSCROLL,
 			nPosX, nPosY, 100, 25, hWnd, (HMENU)nHandle, hInst, NULL);
 	}
-
 	HWND makeEditBox(HWND hWnd, int nPosX, int nPosY, int nWidth, int nHandle)
 	{
 		return CreateWindow(L"edit", NULL,
